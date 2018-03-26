@@ -2,6 +2,8 @@
 
 Implementation of the Bowyer-Watson algorithm, heavily inspired from: http://paulbourke.net/papers/triangulate.
 
+![Delaunay triangulation demo](delaunay.png)
+
 ## Requirements
 
 * C++11 compliant compiler
@@ -10,3 +12,4 @@ Implementation of the Bowyer-Watson algorithm, heavily inspired from: http://pau
 ## How to use
 
 * just include the ```delaunay.hpp``` header file
+* do not use in production, more efficient implementation of Delaunay's triangulation can be found elsewhere.
